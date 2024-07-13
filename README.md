@@ -8,8 +8,6 @@ Este projeto é uma API simples que imita o Twitter, com o propósito de impleme
 - Maven
 - Docker
 
-## Instalação
-
 1. Clone o repositório:
 
     ```bash
@@ -17,14 +15,26 @@ Este projeto é uma API simples que imita o Twitter, com o propósito de impleme
     cd <NOME_DO_DIRETORIO_CLONADO>
     ```
 
-2. Suba o banco de dados MySQL utilizando Docker:
+2. Entre na pasta do projeto:
+
+    ```bash
+    cd <NOME_DO_DIRETORIO_CLONADO>
+    ```
+
+3. Suba o banco de dados MySQL utilizando Docker:
 
     ```bash
     cd docker
     docker-compose up
     ```
 
-3. Compile e rode o projeto:
+4. Volte para a raiz do projeto:
+
+    ```bash
+    cd ..
+    ```
+
+5. Compile e rode o projeto:
 
     ```bash
     mvn clean install
