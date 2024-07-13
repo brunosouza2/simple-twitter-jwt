@@ -27,7 +27,7 @@ Este projeto é uma API simples que imita o Twitter, com o propósito de impleme
 
     ```bash
     cd docker
-    docker-compose up
+    docker-compose up -d
     ```
 
 4. Volte para a raiz do projeto:
