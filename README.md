@@ -8,6 +8,8 @@ Este projeto é uma API simples que imita o Twitter, com o propósito de impleme
 - Maven
 - Docker
 
+## Instalação
+
 1. Clone o repositório:
 
     ```bash
