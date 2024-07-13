@@ -42,6 +42,11 @@ http://localhost:8080/swagger-ui/index.html#/
 
 Esta API utiliza JWT para autenticação stateless. O OAuth2 Resource Server é utilizado para gerar os tokens de autenticação.
 
+Toda a configuração relevante referente a autenticação estão nas classes:
+
+* [SecurityConfig.java](https://github.com/brunosouza2/simple-twitter-jwt/blob/main/src/main/java/br/com/brunosouza/springsecurity/config/SecurityConfig.java)
+* [TokenController.java](https://github.com/brunosouza2/simple-twitter-jwt/blob/main/src/main/java/br/com/brunosouza/springsecurity/controller/TokenController.java)
+
 ## Estrutura do Projeto
 
 - **src/**: Contém o código fonte da aplicação.
